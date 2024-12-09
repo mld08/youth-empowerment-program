@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Empowerment Program</title>
+    <link rel="shortcut icon" href="Logo/PNG Files/YEP - Logo Alt Transparent.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://kit.fontawesome.com/332e91a08f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <div class="header bg-white">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo/SVG Files/Logo Horizontal.svg" alt="" width="200">
+                </a>
+                <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" fill="currentColor" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto nav nav-pills">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#information">Information</a></li>
+                                <li><a class="dropdown-item" href="#program">Program</a></li>
+                                <li><a class="dropdown-item" href="#venue">Venue</a></li>
+                                <li><a class="dropdown-item" href="#faqs">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Thematics</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Speakers</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Sponsors</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Media
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">News</a></li>
+                                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Press Release</a></li>
+                                <li><a class="dropdown-item" href="#">Media Kit</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item mx-4"><a href="#" class="btn btn-pink px-4">REGISTER!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar-->
+
+    <!-- Hero -->
+    <div class="hero-section d-flex justify-content-center align-items-center">
+        <div class="hero-content-1 d-flex">
+            <p class="mx-3"><i class="fa-solid fa-location-dot color-yellow"></i> Freetown, Sierra Leone</p>
+            <p class="mx-3"><i class="fa-regular fa-calendar color-yellow"></i> 10 - 12 December 2024</p>
+        </div>
+        <div class="container-fluid hero-content-3 mt-3">
+            <h1 class="font-poppins-h1"><span class="color-yellow">Empowering</span> youth to be the resilient <span
+                    class="color-yellow">innovators</span> their community is waiting for<span
+                    class="color-pink">.</span></h1>
+        </div>
+        <div class="container hero-content-2 mt-5 pt-2">
+            <div class="mx-3">
+                <div class="row justify-content-center">
+                    <!-- Bloc Jours -->
+                    <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
+                        <div class="value" id="days">07</div>
+                        <div class="label">Days</div>
+                    </div>
+
+                    <!-- Bloc Heures -->
+                    <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
+                        <div class="value" id="hours">09</div>
+                        <div class="label">Hours</div>
+                    </div>
+
+                    <!-- Bloc Minutes -->
+                    <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
+                        <div class="value" id="minutes">58</div>
+                        <div class="label">Minutes</div>
+                    </div>
+
+                    <!-- Bloc Secondes -->
+                    <div class="col-3 col-sm-3 col-md-2 mx-3 countdown-item">
+                        <div class="value" id="seconds">57</div>
+                        <div class="label">Seconds</div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn btn-register mt-2 hero-content-2">Register Today !</a>
+        </div>
+
+    </div>
+    <div class="bg-light">
+        <div class="container">
+            <div class="d-flex w-100 pt-4 row justify-content-center text-center">
+                <p class="col-md-2 mx-2"><strong>500</strong> Participants</p>
+                <p class="col-md-2 mx-2"><strong>5</strong> Workshops</p>
+                <p class="col-md-2 mx-2"><strong>11</strong> Speakers</p>
+                <p class="col-md-2 mx-2"><strong>Certificate Delivery</strong></p>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Program -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="font-hepidova color-blue"><span class="color-pink">YOUTH</span> EMPOWERMENT PROGRAM <span
+                        class="color-pink">FREETOWN</span></h1>
+                <div class="mt-3">
+                    <p>The Africa Governance Institute (AGI) envisions a prosperous and stable Africa led by
+                        empowered and engaged youth. Recognizing the immense potential of Sierra Leone's young
+                        population, AGI is committed to launching a comprehensive young entrepreneurship program
+                        in the country.
+                    </p>
+                    <p>This initiative is designed to address critical challenges faced by the
+                        youth in Sierra Leone, including high unemployment, limited access to education and vocational
+                        training, and the need for sustainable economic development. </p>
+                    <p>The Youth Empowerment Program
+                        aims to empower young Sierra Leoneans through entrepreneurship training, mentorship, and
+                        access to financial resources, fostering a generation of economically active citizens.</p>
+
+                    <a href="#" class="btn btn-register px-3 mt-2">DOWNLOAD PROGRAM</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-hover-one col-lg-12 col-md-12 col-sm-12 py-3 px-3 mx-auto my-3"
+                    style="height: 30rem; background-image: url('img/Intro.jpg');background-size: cover;background-position: center;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Program -->
+
+    <!-- VENUE -->
+    <section class="py-5" id="venue">
+        <div class="container-fluid">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center">
+                    <span>EVENT LOCATION</span>
+                </div>
+            </div>
+            <iframe width="100%" height="600"
+                src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br />
+        </div>
+    </section>
+    <!-- END VENUE -->
+
+    <!-- Footer -->
+    <div class="bg-blue">
+        <footer class="pt-5 container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-6 col-md-3 mb-3 mx-auto">
+                    <img src="Logo/JPEG Files/YEP - Logo Alt.jpg" alt="Youth Empowerment Program" width="300">
+                    <ul class="list-unstyled d-flex justify-content-center fs-5">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3 text-white">
+                    <h5><strong>Useful Links</strong></h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Programme</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sponsors</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3 text-white">
+                    <ul class="nav flex-column mt-4">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 offset-md-1 mb-3">
+                    <form class="text-white">
+                        <h5><strong>Newsletter</strong></h5>
+                        <p>Subscribe for the latest info in your inbox.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="text-center justify-content-center py-4 text-white border-top">
+                <p>Copyright &copy; 2024 Africa Governance Institute. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="js/countdown.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
