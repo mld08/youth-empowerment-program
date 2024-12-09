@@ -354,3 +354,9 @@ body {
 .carousel-indicators{
     margin-top: 20%;
 }
+
+.logo-img {
+    height: 120px; /* Fixez une hauteur uniforme */
+    width: auto; /* Maintient les proportions */
+    object-fit: contain; /* Assure que l'image est contenue sans déformation */
+}
