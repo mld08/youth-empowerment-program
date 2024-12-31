@@ -413,3 +413,7 @@ body {
 .sponsor-card:hover {
     transform: scale(1.05);
 }
+
+.bg-bluee {
+    background-color: #1e2945;
+}
