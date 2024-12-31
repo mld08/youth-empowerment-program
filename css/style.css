@@ -392,3 +392,15 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+
+.sponsor-logo {
+    max-width: 200px;
+    height: auto;
+}
+.sponsor-card {
+    transition: transform 0.3s;
+}
+.sponsor-card:hover {
+    transform: scale(1.05);
+}
