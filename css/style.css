@@ -103,6 +103,12 @@ body {
     background-color: #eb1b45;
 }
 
+.btn-blue{
+    color: white;
+    background-color: #0084c7;
+    border-color: #0084c7;
+}
+
 .font-hepidova {
     font-family: 'Hepidova', sans-serif;
 }

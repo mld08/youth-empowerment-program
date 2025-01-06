@@ -88,7 +88,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto nav nav-pills">
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Speakers</a></li>
+                        <li class="nav-item"><a href="speakers.html" class="nav-link">Speakers</a></li>
                         <li class="nav-item"><a href="sponsors.html" class="nav-link">Sponsors</a></li>
                         <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -192,50 +192,54 @@
         </section>
     </div>
     <!-- Footer -->
-    <div class="bg-blue">
+    <div class="bg-blue text-white">
         <footer class="pt-5 container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-6 col-md-3 mb-3 mx-auto">
-                    <img src="Logo/SVG Files/Logo.svg" alt="Youth Empowerment Program" width="250" class="img-fluid mb-3">
-                    <ul class="list-unstyled d-flex justify-content-center fs-5">
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-square-x-twitter"></i></a></li>
-                    </ul>
+            <div class="row gy-4">
+                <!-- Logo et Réseaux Sociaux -->
+                <div class="col-md-4 text-center text-md-start">
+                    <img src="Logo/SVG Files/Logo.svg" alt="Youth Empowerment Program" width="200" class="img-fluid mb-3">
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 fs-5">
+                        <a class="link-light" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="link-light" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="link-light" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="link-light" href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
                 </div>
 
-                <div class="col-6 col-md-2 mb-3 text-white">
-                    <h5><strong>Useful Links</strong></h5>
+                <!-- Liens Utiles -->
+                <div class="col-md-2 text-center text-md-start">
+                    <h5 class="fw-bold mb-3">Useful Links</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Programme</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Sponsors</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-md-2 mb-3 text-white">
-                    <ul class="nav flex-column mt-4">
+
+                <!-- Autres Liens -->
+                <div class="col-md-2 text-center text-md-start">
+                    <h5 class="fw-bold mb-3">More Info</h5>
+                    <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Press Releases</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact Us</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-4 offset-md-1 mb-3">
-                    <form class="text-white">
-                        <h5><strong>Newsletter</strong></h5>
-                        <p>Subscribe for the latest info in your inbox.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
-                        </div>
+                <!-- Newsletter -->
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3 text-center text-md-start">Newsletter</h5>
+                    <p class="text-center text-md-start">Subscribe for the latest info in your inbox.</p>
+                    <form class="d-flex gap-2 flex-column flex-sm-row">
+                        <input type="email" class="form-control" placeholder="Email address">
+                        <button class="btn btn-pink" type="button">Subscribe</button>
                     </form>
                 </div>
             </div>
 
-            <div class="text-center justify-content-center py-4 text-white border-top">
-                <p>Copyright &copy; 2024 Africa Governance Institute. All rights reserved.</p>
+            <!-- Copyright -->
+            <div class="text-center py-4 border-top mt-4">
+                <p class="mb-0">&copy; 2025 Africa Governance Institute. All rights reserved.</p>
             </div>
         </footer>
     </div>
