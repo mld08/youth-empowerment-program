@@ -180,6 +180,14 @@ body {
     font-size: 12px;
 }
 
+@media (max-width: 900px) {
+    .hero-section {
+        justify-content: flex-start;
+        height: 40vh; /* Pour mieux positionner les éléments lorsque l'écran est plus petit */
+    }
+    
+}
+
 /* Media Queries pour une meilleure adaptation aux écrans plus petits */
 @media (max-width: 768px) {
     .countdown-item {
