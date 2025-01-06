@@ -183,7 +183,7 @@ body {
 @media (max-width: 900px) {
     .hero-section {
         justify-content: flex-start;
-        height: 40vh; /* Pour mieux positionner les éléments lorsque l'écran est plus petit */
+        height: 70vh; /* Pour mieux positionner les éléments lorsque l'écran est plus petit */
     }
     
 }
