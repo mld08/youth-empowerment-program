@@ -34,27 +34,27 @@
         <form id="registrationForm">
             <!-- Surname -->
             <div class="mb-3">
-                <label for="surname" class="form-label">Surname *</label>
+                <label for="surname" class="form-label">Surname <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="surname" name="surname" required>
             </div>
             <!-- First Name -->
             <div class="mb-3">
-                <label for="first_name" class="form-label">First Name *</label>
+                <label for="first_name" class="form-label">First Name <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="first_name" name="first_name" required>
             </div>
             <!-- Email -->
             <div class="mb-3">
-                <label for="email" class="form-label">Email *</label>
+                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <!-- Date of Birth -->
             <div class="mb-3">
-                <label for="dob" class="form-label">Date of Birth *</label>
+                <label for="dob" class="form-label">Date of Birth <span class="text-danger">*</span></label>
                 <input type="date" class="form-control" id="dob" name="dob" required>
             </div>
             <!-- Gender -->
             <div class="mb-3">
-                <label for="gender" class="form-label">Gender *</label>
+                <label for="gender" class="form-label">Gender <span class="text-danger">*</span></label>
                 <select class="form-select" id="gender" name="gender" required>
                     <option selected>--select--</option>
                     <option value="male">Male</option>
@@ -63,7 +63,7 @@
             </div>
             <!-- Status -->
             <div class="mb-3">
-                <label for="status" class="form-label">Status *</label>
+                <label for="status" class="form-label">Status <span class="text-danger">*</span></label>
                 <select class="form-select" id="status" name="status" required onchange="toggleOtherStatus(this)">
                     <option selected>--select--</option>
                     <option value="student">Student</option>
@@ -75,7 +75,7 @@
             </div>
             <!-- Other Status (Text Box) -->
             <div class="mb-3" id="otherStatusBox" style="display: none;">
-                <label for="other_status" class="form-label">Please specify your status *</label>
+                <label for="other_status" class="form-label">Please specify your status <span class="text-danger">*</span></label>
                 <input type="text" class="form-control" id="other_status" name="other_status">
             </div>
             <!-- Terms and Conditions -->
